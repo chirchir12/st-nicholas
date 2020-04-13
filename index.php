@@ -183,13 +183,29 @@
 
     <section class="ftco-section ftco-no-pt">
     	<div class="container">
-    		<div class="row justify-content-center mb-5">
+    		<div class="row justify-content-center">
           <div class="col-md-8 text-center heading-section ftco-animate">
             <h2 class="mb-4">Why Choose Us?</h2>
             <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
           </div>
         </div>
-  			
+  			<div class="container">
+				  <div class="row">
+					  <div class="col-md-6 col-12">
+						  <ul>
+							  <li>Wide range of services  all offered under one roof</li>
+							  <li>Medical compilation to the rehabilitation clients can be taken care of by the nurses available</li>
+							  <li>he training offered to the clients is advantageous to them since they can gain employment after the rehabilitation period</li>
+							  <li>Employment is offered directly or indirectly after full recovery to avoid relapse</li>
+							  <li>Clients are engaged in different activities during the rehabilitation process , since they are not confined in their beds, to avoid boredom  such activities include games, body fitness services through our well-equipped gymnasium, library, watching educational and positively encouraging movies and many more.</li>
+							  <li>After care services given in a unique way through employing our clients after rehabilitation hence increases there productivity to the society</li>
+							  <li>Follow ups are ensured since the recovered clients are visited after being rehabilitated at their various destinations examples place of work, homes or their readmitted schools and universities</li>
+							  <li>Our rehabilitation center has another association that is RITI association of the unemployed professionals which assures the recovered clients of employment, financing their talents and dreams and helping them initiate a business enterprise.</li>
+						  </ul>
+					  </div>
+					  <div class="col-md-6 col-12"> some data for uniquness </div>
+				  </div>
+			  </div>
     </section>
 
 
