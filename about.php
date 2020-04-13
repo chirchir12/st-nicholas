@@ -19,46 +19,46 @@
       </div>
     </section>
 
-    <section class="ftco-section ftco-about ftco-no-pt ftco-no-pb ftco-counter" id="section-counter">
-			<div class="container consult-wrap">
-				<div class="row d-flex align-items-stretch">
-					<div class="col-md-6 wrap-about align-items-stretch d-flex">
-						<div class="img" style="background-image: url(images/rehab1.jpeg);"></div>
-					</div>
-					<div class="col-md-6 wrap-about ftco-animate py-md-5 pl-md-5">
-						<div class="heading-section mb-4">
-							<span class="subheading">Welcome to St Nicholas Rehabalitation Center</span>
-							
-						</div>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						<div class="tabulation-2 mt-4">
-							<ul class="nav nav-pills nav-fill d-md-flex d-block">
-							  <li class="nav-item">
-							    <a class="nav-link active py-2" data-toggle="tab" href="#home1"><span class="ion-ios-home mr-2"></span> Our Mission</a>
-							  </li>
-							  <li class="nav-item px-lg-2">
-							    <a class="nav-link py-2" data-toggle="tab" href="#home2"><span class="ion-ios-person mr-2"></span> Our Vision</a>
-							  </li>
-							  <li class="nav-item">
-							    <a class="nav-link py-2" data-toggle="tab" href="#home3"><span class="ion-ios-mail mr-2"></span> Our Value</a>
-							  </li>
-							</ul>
-							<div class="tab-content bg-light rounded mt-2">
-							  <div class="tab-pane container p-0 active" id="home1">
-							  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-							  </div>
-							  <div class="tab-pane container p-0 fade" id="home2">
-							  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-							  </div>
-							  <div class="tab-pane container p-0 fade" id="home3">
-							  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-							  </div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+    <section class="container">
+		<div class="title">
+			<h1>Executive Summary</h1>
+		</div>
+		<div class="st-nicholas-description">
+			<p>The institute has been initiated to address alcoholism and drug abuse, cutting across all age groups. In the present day era, unemployment and financial constraints are major issues as per United Nations figures with an estimation of 87% of the world population living below the dollar per day. This further demonstrates poverty, hunger, lack of education, maternal mortality and unemployment have a greater significance and impact. </p>
+			<p>While the government has made strides to provide access to education there is a huge gap when it comes to equal access to employment opportunities. Therefore due to high unemployment, many people turn to alcoholism and drug abuse, robbery and gang violence, among others vices. At St Nicholas Rehabilitation Center and Nursing Home, we have recognized the need to help the community counter drug addiction through quality rehabilitation services. The institution will provide other important services such as guidance and counseling, training on employability skills and pitch opportunities within and outside the country.
+</p>
+		</div>
+		<div class="mission-vission-core">
+			<h3>Mission</h3>
+			<p>To lead in the fight against alcohol and drug abuse through prevention treatment, rehabilitation and offering training on employability skills as a follow up to the affected adults and youths.</p>
+			<h3>Vision</h3>
+			<p>A society free from alcohol and drug abuse trained in employability skills.</p>
+			<h3>Core Values</h3>
+			<ul>
+				<li>Self-discipline</li>
+				<li>Consistency</li>
+				<li>Positivity</li>
+				<li>Passion</li>
+				<li>Education</li>
+				<li>Patriotism</li>
+				<li>Respect</li>
+			</ul>
+		</div>
+		<div class="objectives">
+			<h3>Objectives</h3>
+			<ol>
+				<li>To rehabilitate adults and youth addicted to alcohol and drug abuse.</li>
+				<li>To educate the youth and adults on alcohol and drug abuse to prevent more culprits.</li>
+				<li>To guide and counsel youth on alcoholism and drug abuse.</li>
+				<li>To create a society free from alcohol and drug abuse.</li>
+				<li>To help the youth to be self-reliant.</li>
+				<li>To train adults and youth on employability skills.</li>
+				<li>To employ youths through manufacturing items produced during training.</li>
+
+			</ol>
+		</div>
+
+	</section>
 
 
     
