@@ -181,12 +181,12 @@
 			</div>
 		</section>
 
-    <section class="ftco-section ftco-no-pt">
-    	<div class="container">
+    <section class="ftco-section ftco-no-pt bg-color pt-3">
+    	<div class="container mb-2">
     		<div class="row justify-content-center">
           <div class="col-md-8 text-center heading-section ftco-animate">
             <h2 class="mb-4">Why Choose Us?</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+            <p>There are many rehabilitations centers out there with different services St Nicholas rehabilitation center and nursing home is unique due to various reasons which includes;</p>
           </div>
         </div>
   			<div class="container">
@@ -203,7 +203,9 @@
 							  <li>Our rehabilitation center has another association that is RITI association of the unemployed professionals which assures the recovered clients of employment, financing their talents and dreams and helping them initiate a business enterprise.</li>
 						  </ul>
 					  </div>
-					  <div class="col-md-6 col-12"> some data for uniquness </div>
+					  <div class="col-md-6 col-12">
+						  <img src="./images/rehab1.jpeg" alt="st nichola" class="img-fluid"> 
+						   </div>
 				  </div>
 			  </div>
     </section>

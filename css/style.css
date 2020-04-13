@@ -9111,7 +9111,9 @@ textarea.form-control {
 .ftco-section {
   padding: 7em 0;
   position: relative; }
-
+.bg-color {
+  background-color: #f5f5f5;
+}
 .ftco-no-pt {
   padding-top: 0; }
 
