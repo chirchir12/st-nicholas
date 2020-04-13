@@ -8,7 +8,7 @@
 	 <?php require './base/navbar.html'; ?>
     
     <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image:url(images/bg_1.jpg);">
+      <div class="slider-item" style="background-image:url(images/rehab1.jpeg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
@@ -21,7 +21,7 @@
         </div>
       </div>
 
-      <div class="slider-item" style="background-image:url(images/bg_2.jpg);">
+      <div class="slider-item" style="background-image:url(images/rehab5.jpeg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
@@ -42,6 +42,9 @@
 						<div class="ftco-animate bg-primary align-self-stretch px-4 py-5 w-100">
 							<h2 class="heading-white mb-4">Book Consultation</h2>
 							<form action="#" class="appointment-form ftco-animate">
+							<div class="form-group">
+		    					<input type="date" class="form-control" placeholder="Appointment Date">
+		    				</div>
 		    				<div class="form-group">
 		    					<input type="text" class="form-control" placeholder="First Name">
 		    				</div>
@@ -53,12 +56,12 @@
 	        					<div class="select-wrap">
 	                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
 	                    <select name="" id="" class="form-control">
-	                    	<option value="">Select Guidance</option>
-	                      <option value="">Finance</option>
-	                      <option value="">Business</option>
-	                      <option value="">Auto Loan</option>
-	                      <option value="">Real Estate</option>
-	                      <option value="">Other Services</option>
+	                    	<option value="">Drug Test Service</option>
+							<option value="">Rehabilitation Service</option>
+							<option value="">Nursing Service</option>
+							<option value="">Counselling Service</option>
+							<option value="">Psychiatric Service</option>
+							<option value="">Secondary Education</option>
 	                    </select>
 	                  </div>
 		              </div>
@@ -83,15 +86,15 @@
 									<div class="services">
 										<div class="icon mt-2 d-flex align-items-center"><span class="flaticon-collaboration"></span></div>
 										<div class="text media-body">
-											<h3>Drug Test </h3>
-											<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+											<h3>Rehabilitation</h3>
+											<p>We specialize in drug rehabilitation which is the process of medical or psychotherapeutic treatment for dependence on psychoactive substances and street drugs</p>
 										</div>
 									</div>
 									<div class="services">
 										<div class="icon mt-2"><span class="flaticon-analysis"></span></div>
 										<div class="text media-body">
-											<h3>Detoxification</h3>
-											<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+											<h3>NURSING SERVICE</h3>
+											<p>We have a skilled and knowledgeable personnel consisting of nursing aides that provide the best medical care. Our nursing home operates daily on a 24 hour system.</p>
 										</div>
 									</div>
 								</div>
@@ -132,14 +135,14 @@
 			<div class="container consult-wrap">
 				<div class="row d-flex align-items-stretch">
 					<div class="col-md-6 wrap-about align-items-stretch d-flex">
-						<div class="img" style="background-image: url(images/about.jpg);"></div>
+						<div class="img" style="background-image: url(images/rehab2.jpeg);"></div>
 					</div>
 					<div class="col-md-6 wrap-about ftco-animate py-md-5 pl-md-5">
 						<div class="heading-section mb-4">
 							<span class="subheading">Welcome to St Nicholas Rehabilitation Center and Nursing Home</span>
 							
 						</div>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<p>At St Nicholas Rehabilitation Center and Nursing Home, we have recognized the need to help the community counter drug addiction through quality rehabilitation services.</p>
 						<div class="tabulation-2 mt-4">
 							<ul class="nav nav-pills nav-fill d-md-flex d-block">
 							  <li class="nav-item">
@@ -154,13 +157,21 @@
 							</ul>
 							<div class="tab-content bg-light rounded mt-2">
 							  <div class="tab-pane container p-0 active" id="home1">
-							  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+							  	<p> To lead in the fight against alcohol and drug abuse through prevention treatment, rehabilitation and offering training on employability skills as a follow up to the affected adults and youths</p>
 							  </div>
 							  <div class="tab-pane container p-0 fade" id="home2">
-							  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+							  	<p> A society free from alcohol and drug abuse trained in employability skills.</p>
 							  </div>
 							  <div class="tab-pane container p-0 fade" id="home3">
-							  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+							  <ul>
+								  <li>Self-discipline</li>
+								  <li>Consistency</li>
+								  <li>Positivity</li>
+								  <li>Passion</li>
+								  <li>Education</li>
+								  <li>Patriotism</li>
+								  <li>Respect</li>
+							  </ul>
 							  </div>
 							</div>
 						</div>
@@ -178,65 +189,7 @@
             <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
           </div>
         </div>
-  			<div class="row tabulation mt-4 ftco-animate">
-  				<div class="col-md-4">
-						<ul class="nav nav-pills nav-fill d-md-flex d-block flex-column">
-						  <li class="nav-item text-left">
-						    <a class="nav-link active py-4" data-toggle="tab" href="#services-1"><span class="flaticon-analysis mr-2"></span> Rehabilitation Services</a>
-						  </li>
-						  <li class="nav-item text-left">
-						    <a class="nav-link py-4" data-toggle="tab" href="#services-2"><span class="flaticon-business mr-2"></span> Psychiatric Hospital</a>
-						  </li>
-						  <li class="nav-item text-left">
-						    <a class="nav-link py-4" data-toggle="tab" href="#services-3"><span class="flaticon-insurance mr-2"></span> Nursing Home</a>
-						  </li>
-						  <li class="nav-item text-left">
-						    <a class="nav-link py-4" data-toggle="tab" href="#services-4"><span class="flaticon-money mr-2"></span> School of Counselling  Psychology</a>
-						  </li>
-						  <li class="nav-item text-left">
-						    <a class="nav-link py-4" data-toggle="tab" href="#services-5"><span class="flaticon-rating mr-2"></span> Industrial Training Institute</a>
-						  </li>
-						  <li class="nav-item text-left">
-						    <a class="nav-link py-4" data-toggle="tab" href="#services-6"><span class="flaticon-search-engine mr-2"></span> Secondary Education</a>
-						  </li>
-						</ul>
-					</div>
-					<div class="col-md-8">
-						<div class="tab-content">
-						  <div class="tab-pane container p-0 active" id="services-1">
-						  	<div class="img" style="background-image: url(images/project-2.jpg);"></div>
-						  	<h3><a href="#">Rehabilitation Services</a></h3>
-						  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						  </div>
-						  <div class="tab-pane container p-0 fade" id="services-2">
-						  	<div class="img" style="background-image: url(images/project-3.jpg);"></div>
-						  	<h3><a href="#">Psychiatric Hospital</a></h3>
-						  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						  </div>
-						  <div class="tab-pane container p-0 fade" id="services-3">
-						  	<div class="img" style="background-image: url(images/project-4.jpg);"></div>
-						  	<h3><a href="#">Nursing Home</a></h3>
-						  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						  </div>
-						  <div class="tab-pane container p-0 fade" id="services-4">
-						  	<div class="img" style="background-image: url(images/project-5.jpg);"></div>
-						  	<h3><a href="#">School of Counselling  Psychology</a></h3>
-						  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						  </div>
-						  <div class="tab-pane container p-0 fade" id="services-5">
-						  	<div class="img" style="background-image: url(images/project-6.jpg);"></div>
-						  	<h3><a href="#">Industrial Training Institute</a></h3>
-						  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						  </div>
-						  <div class="tab-pane container p-0 fade" id="services-6">
-						  	<div class="img" style="background-image: url(images/project-1.jpg);"></div>
-						  	<h3><a href="#">Secondary Education</a></h3>
-						  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						  </div>
-						</div>
-					</div>
-				</div>
-    	</div>
+  			
     </section>
 
 

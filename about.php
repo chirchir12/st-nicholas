@@ -7,7 +7,7 @@
 	<?php require './base/navbar.html'; ?>
     <!-- END nav -->
     
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/rehab2.jpeg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -23,7 +23,7 @@
 			<div class="container consult-wrap">
 				<div class="row d-flex align-items-stretch">
 					<div class="col-md-6 wrap-about align-items-stretch d-flex">
-						<div class="img" style="background-image: url(images/about.jpg);"></div>
+						<div class="img" style="background-image: url(images/rehab1.jpeg);"></div>
 					</div>
 					<div class="col-md-6 wrap-about ftco-animate py-md-5 pl-md-5">
 						<div class="heading-section mb-4">
