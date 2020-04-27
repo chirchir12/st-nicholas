@@ -1,3 +1,8 @@
+<?php 
+
+$page = basename(__FILE__)
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,7 +10,7 @@
     <?php  require './base/head.html';?>
   </head>
   <body>
-	 <?php require './base/navbar.html'; ?>
+	 <?php require './base/navbar.php'; ?>
     <!-- END nav -->
     
     <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">

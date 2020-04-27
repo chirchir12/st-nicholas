@@ -1,10 +1,16 @@
+<?php 
+
+$page = basename(__FILE__)
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <?php  require './base/head.html'; ?>
   </head>
   <body>
-	<?php require './base/navbar.html'; ?>
+	<?php require './base/navbar.php'; ?>
     <!-- END nav -->
     
     <section class="hero-wrap hero-wrap-2" style="background-image: url('images/rehab2.jpeg');">
@@ -21,7 +27,8 @@
 
     <section class="container">
 		<div class="title">
-			<h1>Executive Summary</h1>
+      <h1>Executive Summary</h1>
+      <?php echo $page ?>
 		</div>
 		<div class="st-nicholas-description">
 			<p>The institute has been initiated to address alcoholism and drug abuse, cutting across all age groups. In the present day era, unemployment and financial constraints are major issues as per United Nations figures with an estimation of 87% of the world population living below the dollar per day. This further demonstrates poverty, hunger, lack of education, maternal mortality and unemployment have a greater significance and impact. </p>

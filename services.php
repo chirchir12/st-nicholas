@@ -1,3 +1,9 @@
+
+<?php 
+
+$page = basename(__FILE__)
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,7 +11,7 @@
     <?php  require './base/head.html';?>
   </head>
   <body>
-	 <?php require './base/navbar.html'; ?>
+	 <?php require './base/navbar.php'; ?>
     <!-- END nav -->
     
     <section class="hero-wrap hero-wrap-2" style="background-image: url('images/rehab5.jpeg');">
@@ -20,11 +26,11 @@
       </div>
 	</section>
 	
-	<section class="service-container">
+	<section class="service-container mt-3">
 		<div class="container">
-			<h3>Our Services</h3>
+			<h3 class="center-text">Our Services</h3>
 			<div class="rehabilitation-container">
-				<h5>Rehabilitation</h5>
+				<h5 class="rehabilitation-title treatmentstyles">Rehabilitation</h5>
 				<p>This entails the restoration of normal life after addiction recovery, long-term or incapacitating illness, accidents or imprisonment. At St Nicholas Rehabilitation and Nursing Home, we offer the following rehabilitation; physiotherapy, occupational therapy and speech therapy.</p>
 				<h6>Drug Rehabilitation</h6>
 				<p>We specialize in drug rehabilitation which is the process of medical or psychotherapeutic treatment for dependence on psychoactive substances and street drugs.</p>
@@ -75,7 +81,7 @@
 				</div>
 			</div>
 			<div class="nursing-services">
-				<h5>NURSING SERVICE</h5>
+				<h5 class="nursing-title treatmentstyles">NURSING SERVICE</h5>
 				<p>We have a skilled and knowledgeable personnel consisting of nursing aides that provide the best medical care. Our nursing home operates daily on a 24 hour system. The facility also offers hospice care for the critically ill, patients with chronic sickness, HIV/Aids or the disabled as well as custodial care for routine tasks such as bathing, getting dressed, eating as so on. </p>
 				<div class="other-services">
 					<span>Other important services offered are as follows;</span>
@@ -90,7 +96,7 @@
 				</div>
 			</div>
 			<div class="counselling-services">
-				<h5>COUNSELING SERVICES</h5>
+				<h5 class="treatmentstyles counsellint-title">COUNSELING SERVICES</h5>
 				<p>This service involves counseling on the 12 steps to recovery. There are various types of counseling offered which includes; addiction counseling ,child counseling, family counseling and psychological counseling, mental health counseling , substance abuse counseling education counseling and marriage counseling.</p>
 				<div class="stages-in-counselling">
 					<span>The experts on counseling are keen in following the stages of change which are;</span>
@@ -104,7 +110,7 @@
 				</div>
 			</div>
 			<div class="psychiatric-services">
-				<h5>PSYCHIATRIC SERVICES</h5>
+				<h5 class="psychiatric-title treatmentstyles">PSYCHIATRIC SERVICES</h5>
 				<p>We deal with diagnosis prevention study, treatment and management of mental disorders such mental disorders include</p>
 				<div class="Psychological-disorders">
 					<h6>Psychological disorders</h6>
@@ -125,16 +131,16 @@
 				</div>
 			</div>
 			<div class="vct-services">
-				<h5>V.C.T Services</h5>
+				<h5 class="vct-services treatmentstyles">V.C.T Services</h5>
 				<p>Our specialist are skilled and knowledgeable on how to counsel and carry out HIV/AIDS tests</p>
 			</div>
 			<div class="counselling-psychology">
-				<h5>SCHOOL OF COUNSELLING PSYCHOLOGY</h5>
+				<h5 class="school-of-counselling-psychology treatmentstyles">SCHOOL OF COUNSELLING PSYCHOLOGY</h5>
 				<p>Counseling psychology is a psychological specialty within a professional psychology that maintains a focus on facilitating personal and interpersonal functioning across the lifespan of an individual. At St Nicholas rehabilitation and nursing home we are designed to offer this course and majorly dealing with addiction counseling to come with the best counseling psychologist who can work well with individual groups to improve their mental health, encourage clients to discuss their issues, examine issue to do with substance abuse and alcoholism, bullying, depression and many other psychological issues and much more.</p>
 
 			</div>
 			<div class="education">
-				<h5>SECONDARY EDUCATION AND INDUSTRIAL TRAINING INSTITUTE</h5>
+				<h5 class="secondary-education treatmentstyles">SECONDARY EDUCATION AND INDUSTRIAL TRAINING INSTITUTE</h5>
 				<div class="technical-training">
 					<h6>Technical Training</h6>
 					<p>Technical training-this training is offered to our clients only to help them gain skills and knowledge with will in turn increase their employability tendency hence avoiding relapse</p>

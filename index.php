@@ -1,3 +1,10 @@
+<?php 
+
+$page = basename(__FILE__)
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,10 +12,10 @@
     <?php  require './base/head.html'; ?>
   </head>
   <body>
-	 <?php require './base/navbar.html'; ?>
+	 <?php require './base/navbar.php'; ?>
     
     <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image:url(images/rehab1.jpeg);">
+      <div class="slider-item" style="background-image:url(images/bg-2.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
@@ -21,7 +28,7 @@
         </div>
       </div>
 
-      <div class="slider-item" style="background-image:url(images/rehab5.jpeg);">
+      <div class="slider-item" style="background-image:url(images/bg-2.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
@@ -80,7 +87,6 @@
 					</div>
 					<div class="col-md-7 wrap-about ftco-animate align-items-stretch d-flex">
 						<div class="bg-white p-5">
-							<h2 class="mb-4">Our Services</h2>
 							<div class="row">
 								<div class="col-lg-6">
 									<div class="services">
@@ -102,15 +108,19 @@
 									<div class="services">
 										<div class="icon mt-2"><span class="flaticon-search-engine"></span></div>
 										<div class="text media-body">
-											<h3>Medical Management</h3>
-											<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+											<h3>Drug Test</h3>
+											<p>St Nicholas Rehabilitation and Nursing Home perfoms drug test for their clients at their clinic
+or from the clients residence. We use urine drug screens or urine drug test to detest the
+presence of drugs in a person’s system.</p>
 										</div>
 									</div>
 									<div class="services">
 										<div class="icon mt-2"><span class="flaticon-handshake"></span></div>
 										<div class="text media-body">
 											<h3>Guidance and Counseling</h3>
-											<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+											<p>St Nicholas Rehabilitation and Nursing Home offer counseling and therapy sessions to help
+individuals to recognize risk factors for relapse and develop tools for coping with stressful
+situation.</p>
 										</div>
 									</div>
 								</div>
@@ -121,7 +131,7 @@
 			</div>
 		</section>
 		
-		<section class="ftco-intro ftco-no-pb img" style="background-image: url(images/bg_3.jpg);">
+		<section class="ftco-intro ftco-no-pb img" style="background-image: url(images/contact-rehab.jpg);">
 			<div class="container">
 				<div class="row justify-content-center">
 			<div class="col-md-10 text-center heading-section heading-section-white ftco-animate">

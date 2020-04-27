@@ -1,5 +1,52 @@
+.nav-active {
+  background-color: #f1648f;
+  color: #fff;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.mt-3 {
+  margin-top: 2rem;
+}
+.center-text {
+  text-align: center;
+}
+
 .running-text {
-    font-weight: 600;
-    color: #fff;
-    font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.treatmentstyles::before {
+  color: #fff;
+  padding: 0.1rem 0.6rem;
+  background-color: #00bdaa;
+  border-radius: 100%;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+.rehabilitation-title.treatmentstyles::before {
+  content: '1';
+}
+.nursing-title.treatmentstyles::before {
+  content: '2';
+}
+.counsellint-title.treatmentstyles::before {
+  content: '3';
+}
+.psychiatric-title.treatmentstyles::before {
+  content: '4';
+}
+.vct-services.treatmentstyles::before {
+  content: '5';
+}
+.school-of-counselling-psychology.treatmentstyles::before {
+  content: '6';
+}
+.secondary-education.treatmentstyles::before {
+  content: '7';
 }

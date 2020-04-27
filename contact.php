@@ -1,3 +1,8 @@
+<?php 
+
+$page = basename(__FILE__)
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,11 +10,11 @@
     <?php  require './base/head.html';?>
   </head>
   <body>
-  <?php require './base/navbar.html'; ?>
+  <?php require './base/navbar.php'; ?>
     <!-- END nav -->
 
     
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/contact-rehab.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -27,36 +32,36 @@
         	<div class="col-md-10">
         		<div class="row mb-5">
 		          <div class="col-md-4 text-center d-flex">
-		          	<div class="border w-100 p-4">
+		          	<div class="border w-100 p-4 shadow-lg">
 			          	<div class="icon">
 			          		<span class="icon-map-o"></span>
 			          	</div>
-			            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+			            <p><span>Address:</span> Meru, Along Meru Maua Road Kiajahi, Kalerene Stage</p>
 			          </div>
 		          </div>
 		          <div class="col-md-4 text-center d-flex">
-		          	<div class="border w-100 p-4">
+		          	<div class="border w-100 p-4 shadow-lg">
 			          	<div class="icon">
 			          		<span class="icon-tablet"></span>
 			          	</div>
-			            <p><span>Phone:</span> <a href="tel://1234567920">Call us: + 1235 2355 98</a></p>
+			            <p><span>Phone:</span> <a href="tel://+254715773374">Call us: +254 715773374</a></p>
 			          </div>
 		          </div>
 		          <div class="col-md-4 text-center d-flex">
-		          	<div class="border w-100 p-4">
+		          	<div class="border w-100 p-4 shadow-lg">
 			          	<div class="icon">
 			          		<span class="icon-envelope-o"></span>
 			          	</div>
-			            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+			            <p><span>Email:</span> <a href="mailto:director.stnicholasriti@gmail.com">director.stnicholasriti@gmail.com</a></p>
 			          </div>
 		          </div>
 		        </div>
           </div>
         </div>
         <div class="row block-9 justify-content-center mb-5">
-          <div class="col-md-10 mb-md-5">
+          <div class="col-12 col-md-10 mb-md-5">
           	<h2 class="text-center">If you got any questions <br>please do not hesitate to send us a message</h2>
-            <form action="#" class="border p-5 contact-form">
+            <form action="#" class="border p-5 contact-form shadow-lg">
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Your Name">
               </div>
