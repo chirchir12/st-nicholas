@@ -93,7 +93,7 @@ $page = basename(__FILE__)
 										<div class="icon mt-2 d-flex align-items-center"><span class="flaticon-collaboration"></span></div>
 										<div class="text media-body">
 											<h3>Rehabilitation</h3>
-											<p>We specialize in drug rehabilitation which is the process of medical or psychotherapeutic treatment for dependence on psychoactive substances and street drugs</p>
+											<p>We specialize in drug rehabilitation which is the process of medical or psychotherapeutic treatment depending on psychoactive substances and street drugs</p>
 										</div>
 									</div>
 									<div class="services">
