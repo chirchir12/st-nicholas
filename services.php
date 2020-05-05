@@ -248,6 +248,7 @@ $page = basename(__FILE__);
                 <h5 class="vct-services treatmentstyles">V.C.T Services</h5>
                 <p>Our specialist are skilled and knowledgeable on how to counsel and carry out HIV/AIDS tests. We
                     follow the following procedure, i.e.</p>
+
             </div>
             <div class="dropdown-divider"></div>
             <div class="counselling-psychology">
