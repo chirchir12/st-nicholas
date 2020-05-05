@@ -217,30 +217,42 @@ $page = basename(__FILE__);
                 <h5 class="psychiatric-title treatmentstyles">PSYCHIATRIC SERVICES</h5>
                 <p>We deal with diagnosis prevention study, treatment and management of mental disorders such mental
                     disorders include</p>
-                <div class="Psychological-disorders">
-                    <h6>Psychological disorders</h6>
-                    <p>Examples are; adjustment disorder anxiety, Bipolar, Depression, obsessive compulsive disorder,
-                        panic disorder, post –traumatic disorder, phobia/fear, somatic symptom disorder and insomnia.
-                    </p>
-                </div>
-                <div class="Addiction-disorder">
-                    <h6>Addiction disorder</h6>
-                    <p>This is a brain disease manifested by obsessive and excessive substance use. The substances
-                        abused includes alcohol, prescription drugs, cocaine, heroin marijuana or bhang and etc. The
-                        symptoms of substance abuse include strong cravings to use the substance abused , social
-                        relations problems where one loses focus on important societal activities and drug withdrawal
-                        symptoms.</p>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <img src="images/rehab5.jpeg" class="img-fluid" alt="img">
+                    </div>
+                    <div class="col-12 col-md-6 d-none d-md-block">
+                        <div class="Psychological-disorders">
+                            <h6>Psychological disorders</h6>
+                            <p>Examples are; adjustment disorder anxiety, Bipolar, Depression, obsessive compulsive
+                                disorder,
+                                panic disorder, post –traumatic disorder, phobia/fear, somatic symptom disorder and
+                                insomnia.
+                            </p>
+                        </div>
+                        <div class="Addiction-disorder">
+                            <h6>Addiction disorder</h6>
+                            <p>This is a brain disease manifested by obsessive and excessive substance use. The
+                                substances
+                                abused includes alcohol, prescription drugs, cocaine, heroin marijuana or bhang and etc.
+                                The
+                                symptoms of substance abuse include strong cravings to use the substance abused , social
+                                relations problems where one loses focus on important societal activities and drug
+                                withdrawal
+                                symptoms.</p>
 
-                </div>
-                <div class="Neurocognitive-disorders">
-                    <h6>Neurocognitive disorders</h6>
-                    <p>Neurocognitive disorders such as dementia, stroke, traumatic brain injury, schizophrenia
-                        borderline personality disorders and Autism spectrum disorder</p>
-                </div>
-                <div class="other-dissorders">
-                    <h6>Other Disorders</h6>
-                    <li>Other psychological disorders which are anger management issues, grief and bereavement,
-                        relationship issues. Stress and burnout.</li>
+                        </div>
+                        <div class="Neurocognitive-disorders">
+                            <h6>Neurocognitive disorders</h6>
+                            <p>Neurocognitive disorders such as dementia, stroke, traumatic brain injury, schizophrenia
+                                borderline personality disorders and Autism spectrum disorder</p>
+                        </div>
+                        <div class="other-dissorders">
+                            <h6>Other Disorders</h6>
+                            <li>Other psychological disorders which are anger management issues, grief and bereavement,
+                                relationship issues. Stress and burnout.</li>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="dropdown-divider"></div>
@@ -248,6 +260,70 @@ $page = basename(__FILE__);
                 <h5 class="vct-services treatmentstyles">V.C.T Services</h5>
                 <p>Our specialist are skilled and knowledgeable on how to counsel and carry out HIV/AIDS tests. We
                     follow the following procedure, i.e.</p>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h6>Pre-test Counseling Process</h6>
+                        <ul class="list-styl-lowe-roman">
+                            <li>Reason for testing</li>
+                            <li>Symptoms or the presence of risk behavior</li>
+                            <li>Imparting basic information on HIV, including HIV transmission</li>
+                            <li>Personal risk assessment. It is undertaken to understand the nature and time course of
+                                behavioral risk</li>
+                            <li>Feedback of possible results in relations to personal risk assessment</li>
+                            <li>Assessment and discussion regarding capacity to cope with potential positive results
+                            </li>
+                            <li>Assessment of potential support requirement</li>
+                            <li>Development of a personal risk reduction plan</li>
+                            <li>Provision of HIV test information</li>
+                            <li>Informed consent</li>
+                            <li>Follow up arrangement for collection of result and other referrals e.g. STI treatment
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="images/rehab5.jpeg" class="img-fluid" alt="hiv">
+                    </div>
+                </div>
+                <h6>Post Test Counseling</h6>
+                <li class="squire-list-style">Counseling for HIV negative patients</li>
+                <ul class="decimal-list-style">
+                    <li>An explanation of the test results including information about the window period for the
+                        appearance of HIV antibodies and a recommendation to re-test in case of a recent exposure</li>
+                    <li>Basic advice on methods to prevent hive transmission, including avoiding the use of
+                        non-sterilize needles syringes or other injecting equipment</li>
+                    <li>Access to drug dependence treatment and its effectiveness</li>
+                    <li>Guidance on the use of condoms, safe injecting advice( if possible, an appropriate supply of
+                        condoms sterile needles/ syringes and other commodities should be provided) </li>
+                    <li>The appropriate time for follow up test, based on the risk assessment and ongoing risk behavior.
+                    </li>
+                </ul>
+                <li class="squire-list-style">Counseling for HIV negative patients</li>
+                <ul class="decimal-list-style">
+                    <li>Inform the client of the results simply and clearly, and give them time to consider it.</li>
+                    <li>Ensure the client understands the results.</li>
+                    <li>Allow the client to ask questions.</li>
+                    <li>Assist the client in coping with the emotions arising from the test results.</li>
+                    <li>Discuss immediate concerns and assist the client in determining what social network will be
+                        acceptable and available to offer immediate support.</li>
+                    <li>Describe follow up services that are available in the health facility and in the community,
+                        paying special attention to OI/HIV treatment, PMTCT, and care and support services.</li>
+                    <li>Provide information on how to prevent the transmission of HIV, including provision of sterile
+                        needles, syringes and condoms, and guidance on their use.</li>
+                    <li>Provide information on other relevant preventive measures, such as good nutrition, use of co-
+                        trimoxazole, profylaxis and, if appropriate insecticide treated bed net and OST.</li>
+                    <li>Discuss disclosure of the results – when and how this happened, and to whom.</li>
+                    <li>Encourage testing and counseling of partners and children.</li>
+                    <li>Provide advice on other pathological test that may be appropriate (such as for live function.
+                        hepatitis B and C serology, pregnancy, X-RAY, sputum for acid-fast bacilli [AFB]).</li>
+                    <li>Assess the risk of violence, drug overdose or suicide, and discuss possible measures to ensure
+                        the physical safety of clients, particularly women who are diagnosed HIV positive.</li>
+                    <li>Arrange a specific date and time for follow up visits of referral to treatment, care,
+                        counseling, support and other services as appropriate( e.g. screening for and treatment of TB,
+                        prophylaxis for OIs, STI treatment, contraception, antenatal care, OST, hepatitis B and C
+                        screening, and access to supplies of condoms and sterile needles /syringes).</li>
+                    <li>Consider introducing the client to relevant team members who may be involved in future care.
+                    </li>
+                </ul>
 
             </div>
             <div class="dropdown-divider"></div>

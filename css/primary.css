@@ -64,3 +64,11 @@
   font-weight: 600;
   font-style: italic;
 }
+.list-styl-lowe-roman {
+  list-style: lower-roman;
+}
+.squire-list-style {
+  list-style: none;
+  font-weight: 600;
+  font-style: italic;
+}
