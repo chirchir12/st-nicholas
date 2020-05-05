@@ -50,3 +50,13 @@
 .secondary-education.treatmentstyles::before {
   content: '7';
 }
+.company-banner {
+  display: block;
+  color: #b71c1c;
+  font-weight: 600;
+  text-align: center;
+  background-color: #42a5f5;
+  opacity: 0.8;
+  border-radius: 0.7rem;
+  padding: 0.5rem;
+}

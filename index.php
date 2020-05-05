@@ -21,6 +21,7 @@ $page = basename(__FILE__)
           <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
           <div class="col-md-7 ftco-animate mb-md-5">
 			<h1 class="mb-4">St Nicholas Rehabilitation Center</h1>
+			<span class="company-banner">A home away from home for people suffering from alcoholism substance use and psychiatric disorders</span>
 			<marquee class="running-text" behavior="" direction=""> Nursing Home, Psychiatric Hospital, School of Counselling Psychology, Industrial Training Institute, Secondary Education</marquee>
             <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Our Services</a></p>
           </div>
@@ -34,6 +35,7 @@ $page = basename(__FILE__)
           <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
           <div class="col-md-7 ftco-animate mb-md-5">
 			  <h1 class="mb-4">St Nicholas Rehabilitation Center</h1>
+			  <span class="company-banner">A home away from home for people suffering from alcoholism substance use and psychiatric disorders</span>
 			  <marquee class="running-text" behavior="" direction=""> Nursing Home, Psychiatric Hospital, School of Counselling Psychology, Industrial Training Institute, Secondary Education</marquee>
             <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Our Services</a></p>
           </div>
@@ -167,7 +169,7 @@ situation.</p>
 							</ul>
 							<div class="tab-content bg-light rounded mt-2">
 							  <div class="tab-pane container p-0 active" id="home1">
-							  	<p> To lead in the fight against alcohol and drug abuse through prevention treatment, rehabilitation and offering training on employability skills as a follow up to the affected adults and youths</p>
+							  	<p> To lead in the fight against alcohol and drug abuse through prevention treatment, rehabilitation and offering training on employability skills as a follow up to the affected adults and youths.</p>
 							  </div>
 							  <div class="tab-pane container p-0 fade" id="home2">
 							  	<p> A society free from alcohol and drug abuse trained in employability skills.</p>
@@ -196,21 +198,22 @@ situation.</p>
     		<div class="row justify-content-center">
           <div class="col-md-8 text-center heading-section ftco-animate">
             <h2 class="mb-4">Why Choose Us?</h2>
-            <p>There are many rehabilitations centers out there with different services St Nicholas rehabilitation center and nursing home is unique due to various reasons which includes;</p>
+            <p>There are many rehabilitations centers out there with different services. St Nicholas Rehabilitation Center and Nursing Home is unique as compared to other rehabilitation centers due to various reasons which includes;</p>
           </div>
         </div>
   			<div class="container">
 				  <div class="row">
 					  <div class="col-md-6 col-12">
-						  <ul>
+						  <ul><li><b>Maximum Security</b>- we have a spacious compound with high perimeter fence</li>
+						  <li><b>continuity of education </b>- we offer secondary education and vocation training after rehab process</li>
 							  <li>Wide range of services  all offered under one roof</li>
-							  <li>Medical compilation to the rehabilitation clients can be taken care of by the nurses available</li>
-							  <li>he training offered to the clients is advantageous to them since they can gain employment after the rehabilitation period</li>
+							  <li>Medical treatments of the rehabilitated clients can be taken care of by the nurses available</li>
+							  <li>The training offered to the clients is advantageous to them since they can gain employment after the rehabilitation period</li>
 							  <li>Employment is offered directly or indirectly after full recovery to avoid relapse</li>
-							  <li>Clients are engaged in different activities during the rehabilitation process , since they are not confined in their beds, to avoid boredom  such activities include games, body fitness services through our well-equipped gymnasium, library, watching educational and positively encouraging movies and many more.</li>
-							  <li>After care services given in a unique way through employing our clients after rehabilitation hence increases there productivity to the society</li>
-							  <li>Follow ups are ensured since the recovered clients are visited after being rehabilitated at their various destinations examples place of work, homes or their readmitted schools and universities</li>
-							  <li>Our rehabilitation center has another association that is RITI association of the unemployed professionals which assures the recovered clients of employment, financing their talents and dreams and helping them initiate a business enterprise.</li>
+							  <li>Clients are engaged in different activities during the rehabilitation process. They are not confined in their beds, thus no boredom.  Such activities includes games, body fitness services through our well-equipped gymnasium, library, watching educative and positively encouraging movies and many more</li>
+							  <li>After care services is given in a unique way through employing our clients after rehabilitation hence increasing their productivity to the society.</li>
+							  <li>Follow ups are ensured since the recovered clients are visited after being rehabilitated at their various destinations. Examples are at place of work, homes or their readmitted schools and universities</li>
+							  <li>Our rehabilitation center partners with RITI Association of the Unemployed Professionals which assures the recovered clients of employment, financing their talents and dreams and helping them initiate a business enterprise.</li>
 						  </ul>
 					  </div>
 					  <div class="col-md-6 col-12">
