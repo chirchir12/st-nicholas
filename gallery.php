@@ -7,7 +7,7 @@ $page = basename(__FILE__);
 <html lang="en">
 
 <head>
-    <title>Treatments</title>
+    <title>Gallery</title>
     <?php require './base/head.html'; ?>
 </head>
 
