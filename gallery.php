@@ -29,15 +29,7 @@ $page = basename(__FILE__);
         </div>
     </section>
     <div class="row no-gutters">
-        <div class="col-12 col-md-4">
-            <img class="img-fluid" src="images/gallery/1.jpg" alt="gallery image">
-        </div>
-        <div class="col-12 col-md-4">
-            <img class="img-fluid" src="images/gallery/2.jpg" alt="gallery image">
-        </div>
-        <div class="col-12 col-md-4">
-            <img class="img-fluid" src="images/gallery/3.jpg" alt="gallery image">
-        </div>
+
         <div class="col-12 col-md-4">
             <img class="img-fluid" src="images/gallery/4.JPG" alt="gallery image">
         </div>

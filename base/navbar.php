@@ -48,7 +48,7 @@
                 <li class="nav-item"><a href="contact.php" class="nav-active nav-link"> CONTACT </a></li>
                 <?php } else { ?><li class="nav-item"><a class="nav-link" href="contact.php"> CONTACT </a><?php } ?>
 
-                    <?php if ($page == 'contact.php') { ?>
+                    <?php if ($page == 'gallery.php') { ?>
                 <li class="nav-item"><a href="gallery.php" class="nav-active nav-link"> GALLERY </a></li>
                 <?php } else { ?><li class="nav-item"><a class="nav-link" href="gallery.php"> GALLERY </a><?php } ?>
 

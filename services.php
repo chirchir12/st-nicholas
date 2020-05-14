@@ -281,7 +281,7 @@ $page = basename(__FILE__);
                         </ul>
                     </div>
                     <div class="col-12 col-md-6">
-                        <img src="images/rehab5.jpeg" class="img-fluid" alt="hiv">
+                        <img src="images/55.jpeg" class="img-fluid" alt="hiv">
                     </div>
                 </div>
                 <h6>Post Test Counseling</h6>

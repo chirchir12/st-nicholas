@@ -257,7 +257,8 @@ $page = basename(__FILE__)
                         </ul>
                     </div>
                     <div class="col-md-6 col-12">
-                        <img src="./images/rehab1.jpeg" alt="st nichola" class="img-fluid">
+                        <img src="./images/50.jpeg" alt="st nichola" class="img-fluid">
+                        <img src="./images/gallery/5.JPG" alt="st nichola" class="img-fluid d-none d-md-block">
                     </div>
                 </div>
             </div>

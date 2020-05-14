@@ -52,7 +52,8 @@ $page = basename(__FILE__);
                 </div>
             </div>
             <div class="col-12 col-md-6 pt-5">
-                <img src="images/rehab1.jpeg" class="img-fluid" alt="">
+                <img src="images/54.jpeg" class="img-fluid" alt="">
+                <img src="images/gallery/6.JPG" class="img-fluid d-none d-md-block" alt="">
             </div>
         </div>
         <div class="dropdown-divider"></div>
