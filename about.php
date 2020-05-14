@@ -52,8 +52,11 @@ $page = basename(__FILE__);
                 </div>
             </div>
             <div class="col-12 col-md-6 pt-5">
-                <img src="images/54.jpeg" class="img-fluid" alt="">
-                <img src="images/gallery/6.JPG" class="img-fluid d-none d-md-block" alt="">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/PKz-OB4YTGA" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
             </div>
         </div>
         <div class="dropdown-divider"></div>
