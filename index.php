@@ -14,45 +14,12 @@ $page = basename(__FILE__)
 </head>
 
 <body>
+    <!-- get navbar -->
     <?php require './base/navbar.php'; ?>
 
-    <section class="home-slider owl-carousel">
-        <div class="slider-item" style="background-image:url(images/bg-2.jpg);">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row no-gutters slider-text align-items-center justify-content-end"
-                    data-scrollax-parent="true">
-                    <div class="col-md-7 ftco-animate mb-md-5">
-                        <h1 class="mb-2">St Nicholas Rehabilitation Center</h1>
-                        <span class="company-banner">A home away from home for people suffering from alcoholism
-                            substance use and psychiatric disorders</span>
-                        <marquee class="running-text" behavior="" direction=""> Nursing Home, Psychiatric Hospital,
-                            School of Counselling Psychology, Industrial Training Institute, Secondary Education
-                        </marquee>
-                        <p><a href="#" class="btn btn-primary px-4 py-3 mt-2">Our Services</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- get slider -->
+    <?php require './base/slider.php'; ?>
 
-        <div class="slider-item" style="background-image:url(images/bg-2.jpg);">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row no-gutters slider-text align-items-center justify-content-end"
-                    data-scrollax-parent="true">
-                    <div class="col-md-7 ftco-animate mb-md-5">
-                        <h1 class="mb-2">St Nicholas Rehabilitation Center</h1>
-                        <span class="company-banner">A home away from home for people suffering from alcoholism
-                            substance use and psychiatric disorders</span>
-                        <marquee class="running-text" behavior="" direction=""> Nursing Home, Psychiatric Hospital,
-                            School of Counselling Psychology, Industrial Training Institute, Secondary Education
-                        </marquee>
-                        <p><a href="#" class="btn btn-primary px-4 py-3 mt-2">Our Services</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <section class="ftco-section ftco-no-pt ftco-no-pb ftco-consult">
         <div class="container">
@@ -98,57 +65,8 @@ $page = basename(__FILE__)
                         </form>
                     </div>
                 </div>
-                <div class="col-md-7 wrap-about ftco-animate align-items-stretch d-flex">
-                    <div class="bg-white p-5">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="services">
-                                    <div class="icon mt-2 d-flex align-items-center"><span
-                                            class="flaticon-collaboration"></span></div>
-                                    <div class="text media-body">
-                                        <h3>Rehabilitation</h3>
-                                        <p>We specialize in drug rehabilitation which is the process of medical or
-                                            psychotherapeutic treatment depending on psychoactive substances and street
-                                            drugs</p>
-                                    </div>
-                                </div>
-                                <div class="services">
-                                    <div class="icon mt-2"><span class="flaticon-analysis"></span></div>
-                                    <div class="text media-body">
-                                        <h3>NURSING SERVICE</h3>
-                                        <p>We have a skilled and knowledgeable personnel consisting of nursing aides
-                                            that provide the best medical care. Our nursing home operates daily on a 24
-                                            hour system.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="services">
-                                    <div class="icon mt-2"><span class="flaticon-search-engine"></span></div>
-                                    <div class="text media-body">
-                                        <h3>Drug Test</h3>
-                                        <p>St Nicholas Rehabilitation and Nursing Home perfoms drug test for their
-                                            clients at their clinic
-                                            or from the clients residence. We use urine drug screens or urine drug test
-                                            to detest the
-                                            presence of drugs in a person’s system.</p>
-                                    </div>
-                                </div>
-                                <div class="services">
-                                    <div class="icon mt-2"><span class="flaticon-handshake"></span></div>
-                                    <div class="text media-body">
-                                        <h3>Guidance and Counseling</h3>
-                                        <p>St Nicholas Rehabilitation and Nursing Home offer counseling and therapy
-                                            sessions to help
-                                            individuals to recognize risk factors for relapse and develop tools for
-                                            coping with stressful
-                                            situation.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!-- about section  -->
+                <?php require './base/about_sec.php'; ?>
             </div>
         </div>
     </section>
@@ -267,33 +185,3 @@ $page = basename(__FILE__)
 
     <!-- footer -->
     <?php require './base/footer.html'; ?>
-
-
-
-    <!-- loader -->
-    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-                stroke="#F96D00" /></svg></div>
-
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/scrollax.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false">
-    </script>
-    <script src="js/google-map.js"></script>
-    <script src="js/main.js"></script>
-
-</body>
-
-</html>

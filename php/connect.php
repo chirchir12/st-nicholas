@@ -1,4 +1,0 @@
-password=p2FgyGnumyNQ4RD
-database= ritimark_stnicholas
-user= ritimark_root
-host=localhost
