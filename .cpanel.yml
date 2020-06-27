@@ -2,14 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ritimark/public_html/
-    - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp -R images $DEPLOYPATH
-    - /bin/cp -R fonts $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
-    - /bin/cp -R base $DEPLOYPATH
-    - /bin/cp -R scss $DEPLOYPATH
-    - /bin/cp -R private $DEPLOYPATH
-    - /bin/cp  index.php $DEPLOYPATH
-    - /bin/cp  contact.php $DEPLOYPATH
-    - /bin/cp  about.php $DEPLOYPATH
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
