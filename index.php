@@ -1,6 +1,60 @@
 <?php
+require_once('private/initialize.php');
+$page = basename(__FILE__);
 
-$page = basename(__FILE__)
+// option values
+$services = [
+    ['value'=>'', 'name' => 'select service'],
+    ['value'=>'drug test services', 'name' => 'Drug Test Service'],
+    ['value'=>'rehabilitation services', 'name' => 'Rehabilitation Services'],
+    ['value'=>'nursing services', 'name' => 'Nursing Services'],
+    ['value'=>'counselling services', 'name' => 'Counselling Services'],
+    ['value'=>'psychiatric service', 'name' => 'Psychiatric Service'],
+    ['value'=>'secondary education', 'name' => 'Secondary Education'],
+
+];
+// default values
+$date ='';
+$fname ='';
+$lname ='';
+$message = '';
+$service='';
+$phone ='';
+$time = '';
+
+// check if data has been submitted
+if(is_post_request()) {
+    //send data to deb
+
+    $date =clean_text($_POST['date']);
+    $fname =clean_text($_POST['firstname']);
+    $lname =clean_text($_POST['lastname']);
+    $message = clean_text($_POST['message']);
+    $service=clean_text($_POST['service']);
+    $phone =clean_text($_POST['phone']);
+    $time =clean_text($_POST['time']);
+
+    
+    $query = "INSERT INTO appointments ";
+    $query .= "(fname, lname, date, time, phone, service, message) ";
+    $query .= "VALUES('$fname', '$lname', '$date', '$time', '$phone', '$service', '$message')";
+
+    $results = mysqli_query($db, $query);
+
+    echo $results;
+
+    set_message( $results);
+    if($results) {
+        $date ='';
+        $fname ='';
+        $lname ='';
+        $message = '';
+        $service='';
+        $phone ='';
+    }else {
+    }
+}
+
 
 ?>
 
@@ -27,40 +81,54 @@ $page = basename(__FILE__)
                 <div class="col-md-5 wrap-about align-items-stretch d-flex">
                     <div class="ftco-animate bg-primary align-self-stretch px-4 py-5 w-100">
                         <h2 class="heading-white mb-4">Book Consultation</h2>
-                        <form action="#" class="appointment-form ftco-animate">
+                        <form id="appointmentform" action="<?php $_SERVER['PHP_SELF']?>"
+                            class="appointment-form ftco-animate" method="post">
                             <div class="form-group">
-                                <input type="date" class="form-control" placeholder="Appointment Date">
+                                <input id="date" name="date" type="date" class="form-control"
+                                    value="<?php echo $date ?>" placeholder="Appointment Date" required>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="First Name">
+                                <input id="time" name="time" type="time" class="form-control"
+                                    value="<?php echo $time ?>" placeholder="Appointment Time" required>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Last Name">
+                                <input id="firstname" name="firstname" type="text" value="<?php echo $fname ?>"
+                                    class="form-control" placeholder="First Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input id="lastname" name='lastname' type="text" value="<?php echo $lname ?>"
+                                    class="form-control" placeholder="Last Name" required>
                             </div>
                             <div class="form-group">
                                 <div class="form-field">
                                     <div class="select-wrap">
                                         <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                                        <select name="" id="" class="form-control">
-                                            <option value="">Drug Test Service</option>
-                                            <option value="">Rehabilitation Service</option>
-                                            <option value="">Nursing Service</option>
-                                            <option value="">Counselling Service</option>
-                                            <option value="">Psychiatric Service</option>
-                                            <option value="">Secondary Education</option>
+                                        <select name="service" id="service" class="form-control" required>
+
+                                            <?php  foreach($services as $service):?>
+                                            <option value=<?php echo $service['value']?>><?php echo $service['name']?>
+                                            </option>
+                                            <?php endforeach?>
                                         </select>
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Phone">
+                                <input id="phone" name="phone" value="<?php echo $phone ?>" type="text"
+                                    class="form-control" placeholder="Phone" required>
                             </div>
                             <div class="form-group">
-                                <textarea name="" id="" cols="30" rows="2" class="form-control"
-                                    placeholder="Message"></textarea>
+                                <textarea id="message" name="message" id="" value="<?php echo $message ?>" cols="30"
+                                    rows="2" class="form-control" placeholder="Message" required></textarea>
                             </div>
                             <div class="form-group">
-                                <input type="submit" value="Book Now" class="btn btn-secondary py-3 px-4">
+                                <button id="appointmentSub" type="submit" name="submit"
+                                    class="btn btn-secondary py-3 px-4"> Book Now</button>
+                            </div>
+                            <div class="form-group">
+                                <?php if (isset($_SESSION['message'])) : ?>
+                                <?php require './base/message.php'; ?>
+                                <?php endif ?>
                             </div>
                         </form>
                     </div>
@@ -185,3 +253,7 @@ $page = basename(__FILE__)
 
     <!-- footer -->
     <?php require './base/footer.html'; ?>
+
+    <script>
+
+    </script>

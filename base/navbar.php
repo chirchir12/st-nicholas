@@ -17,21 +17,15 @@
     </div>
 </div>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+
     <div class="container d-flex align-items-center">
+        <a class="navbar-brand" href="index.php">RITI</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
             aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
         </button>
-        <form action="#" class="searchform order-lg-last d-none d-md-inline">
-            <div class="form-group d-flex">
-                <input type="text" class="form-control pl-3" placeholder="Search" />
-                <button type="submit" placeholder="" class="form-control search">
-                    <span class="ion-ios-search"></span>
-                </button>
-            </div>
-        </form>
         <div class="collapse navbar-collapse" id="ftco-nav">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav ml-auto">
                 <?php if ($page == 'index.php') { ?><li class="nav-item"><a href="index.php"
                         class="nav-active nav-link"> HOME </a></li>
                 <?php } else { ?><li class="nav-item"><a class="nav-link" href="index.php"> HOME </a><?php } ?>
