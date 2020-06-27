@@ -25,7 +25,6 @@ AOS.init({
       return item;
     });
 
-    console.log(good_data);
     var post_url = $('#appointmentform').attr('action');
     $.post(post_url, good_data, function (info) {
       $('#appointmentSub').html('Thank you!!');
