@@ -35,8 +35,9 @@ $page = basename(__FILE__);
             <div class="rehabilitation-container">
                 <h5 class="rehabilitation-title treatmentstyles">Rehabilitation</h5>
                 <p>This entails the restoration of normal life after addiction recovery, long-term or incapacitating
-                    illness, accidents or imprisonment. At St Nicholas Rehabilitation and Nursing Home, we offer the
-                    following rehabilitation; physiotherapy, occupational therapy and speech therapy.</p>
+                    illness, accidents, or imprisonment. At St Nicholas Rehabilitation and Nursing Home, we
+                    offer the following; rehabilitation, physiotherapy, occupational therapy, and speech therapy,
+                    etc.</p>
                 <div class="row">
                     <div class="col-12 col-md-7">
                         <h6>Drug Addiction/ Drug Abuse Rehabilitation</h6>
@@ -60,7 +61,7 @@ $page = basename(__FILE__);
                         </div>
                         <p>We help the patient seize substance abuse to avoid psychological, legal financial, social and
                             physical consequences that can be caused by extreme abuse. We also help the patient to
-                            overcome various psychological disorders such as</p>
+                            overcome various psychological disorders such as;</p>
                         <ol>
                             <li>Anxiety disorders.</li>
                             <li>Depression, bipolar disorders and other mood disorder.</li>
@@ -77,22 +78,22 @@ $page = basename(__FILE__);
                     </div>
                 </div>
                 <div class="stages-rehabilitation mt-3">
-                    <h6>STAGES OF REHABILITATION PROCESS: INCEPTION TO COMPLETION.</h6>
+                    <h6>STAGES OF REHABILITATION PROCESS- INCEPTION TO COMPLETION.</h6>
                     <ul>
                         <li><span class="sub-stage">Orientation and application-</span>This is where the intended client
                             is familiarized with the whole process and given guidance on how to enroll to the
                             rehabilitation center. The intended client is also given information on the application
                             requirements to apply.</li>
                         <li><span class="sub-stage">Intake appointment-</span>This is the interview process that serves
-                            to admit that there is a substance that has been abused</li>
+                            verify substance abuse</li>
                         <li><span class="sub-stage">Eligibility determination-</span>This is a process where we
                             determine if someone is really qualified for the services being offered.</li>
-                        <li><span class="sub-stage">Admission and assessment-</span>At this stage, a record of a
-                            leader's complaint and history is provided by the client, physical examination is done then
-                            a complete psychological evaluation is carried out.</li>
+                        <li><span class="sub-stage">Admission and assessment-</span>At this stage, a record of the
+                            client's history is provided followed by physical examination and
+                            a complete psychological evaluation.</li>
                         <li><span class="sub-stage">Co-occurring disorder and dual diagnosis-</span>this is where
                             symptoms predating a specific mental disorder and substance abuse or any kind of addiction
-                            is diagnosed such
+                            is diagnosed. Such
                             includes depression ,anxiety and others</li>
                         <li><span class="sub-stage">Individual treatment plan-</span>This is where the course of
                             treatment is outlined and
@@ -101,11 +102,11 @@ $page = basename(__FILE__);
                             substances from the
                             body under medical supervision</li>
                         <li><span class="sub-stage">Treatment plan-</span>At this stage, a detailed treatment plan is
-                            given to individual
+                            given to the
                             patient and the they are engaged in the treatment process. The plan includes, clients
                             information, diagnosis prescriptions and measurement objectives</li>
                         <li>Inpatient/outpatient and partial hospitalization.</li>
-                        <li><span class="sub-stage">Therapy –</span>this includes; rehab therapy, individual therapy,
+                        <li><span class="sub-stage">Therapy –</span>this includes, rehab therapy, individual therapy,
                             family therapy and
                             occupational therapy.</li>
                         <li><span class="sub-stage">Employment services-</span>St Nicholas Rehabilitation Center aims at
@@ -118,7 +119,7 @@ $page = basename(__FILE__);
                             ensure
                             an individual doesn't relapse and stay focused on his or her recovery. This is done by group
                             counseling,
-                            advising on sober living and being joined to a support group.</li>
+                            advising on sober living and being joined to a support groups.</li>
 
 
                     </ul>
@@ -133,7 +134,7 @@ $page = basename(__FILE__);
                     hospice
                     care for the critically ill, patients with chronic sickness, HIV/Aids or the disabled as
                     well as
-                    custodial care for routine tasks such as bathing, getting dressed, eating as so on. </p>
+                    custodial care for routine tasks such as bathing, getting dressed, eating and so on. </p>
                 <div class="row">
                     <div class="col-12 col-md-6 d-none d-md-block">
                         <img src="images/rehab2.jpeg" class="img-fluid " alt="rehab">
@@ -143,15 +144,18 @@ $page = basename(__FILE__);
                         <div class="other-services">
                             <span>Other important services offered are as follows;</span>
                             <ul>
-                                <li>Room and board- this is where meals, home stays and medical care is offered around
+                                <li><b>Room and board-</b> this is where meals, home stays and medical care is offered
+                                    around
                                     the clock
                                 </li>
-                                <li>Monitoring and education a patient activities are monitored closely hence give
+                                <li> <b>Monitoring and education</b>- patient activities are monitored closely hence
+                                    give
                                     proper advice
                                     to help in recovery</li>
-                                <li>Personal care</li>
-                                <li>24 hours emergency care</li>
-                                <li>Social and recreational activities such as games which include, football, chess,
+                                <li><b>Personal care</b></li>
+                                <li><b>24 hours emergency care</b></li>
+                                <li><b>Social and recreational activities</b> such as games which include, football,
+                                    chess,
                                     drafts,
                                     netball etc and entertainment activities that include, watching motivational and
                                     educational
@@ -159,7 +163,8 @@ $page = basename(__FILE__);
                                     participate in group talks to encourage each other. We also have a library services
                                     for the
                                     avid readers.</li>
-                                <li>Health related issues such as chronic pains diabetes, irritable bowel syndrome,
+                                <li><b>Health related issues</b> such as chronic pains diabetes, irritable bowel
+                                    syndrome,
                                     weight</li>
                             </ul>
                         </div>
@@ -178,7 +183,7 @@ $page = basename(__FILE__);
                         <div class="col-12 col-md-6"><span>The experts on counseling are keen in following the stages of
                                 change which are;</span>
                             <ul>
-                                <li><span class="sub-stage">Pre-contemplation - </span>This is whereby the patient has
+                                <li><span class="sub-stage">Pre-contemplation - </span>This is where the patient has
                                     not yet come to
                                     terms with the fact that he or she needs help. This can take up to six months
                                     because the patient is unaware of his or her problematic behaviors. The counselor
@@ -196,9 +201,9 @@ $page = basename(__FILE__);
                                     term benefits.</li>
                                 <li><span class="sub-stage">Maintenance -</span> This is where the client has accepted
                                     and made a positive
-                                    change in their lifestyle and is working to avoid relapse The counselor make a
+                                    change in their lifestyle and is working to avoid relapse. The counselor make a
                                     follow up on the client to avoid relapse, reinforce internal rewards and plan a way
-                                    forward after counseling sessions are over. This can take up to 5years.</li>
+                                    forward after counseling sessions are over. This can take up to 5 years.</li>
                                 <li><span class="sub-stage">After care -</span>The counselor evaluates the triggers of
                                     relapse, reassesses
                                     motivation and barriers to successful full recovery and plan stronger coping
@@ -215,8 +220,8 @@ $page = basename(__FILE__);
             <div class="dropdown-divider"></div>
             <div class="psychiatric-services">
                 <h5 class="psychiatric-title treatmentstyles">PSYCHIATRIC SERVICES</h5>
-                <p>We deal with diagnosis prevention study, treatment and management of mental disorders such mental
-                    disorders include</p>
+                <p>We deal with diagnosis prevention study, treatment and management of mental disorders. Such mental
+                    disorders includes;</p>
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <img src="images/rehab5.jpeg" class="img-fluid" alt="img">
@@ -231,7 +236,7 @@ $page = basename(__FILE__);
                             </p>
                         </div>
                         <div class="Addiction-disorder">
-                            <h6>Addiction disorder</h6>
+                            <h6>Addiction disorders</h6>
                             <p>This is a brain disease manifested by obsessive and excessive substance use. The
                                 substances
                                 abused includes alcohol, prescription drugs, cocaine, heroin marijuana or bhang and etc.
@@ -250,7 +255,7 @@ $page = basename(__FILE__);
                         <div class="other-dissorders">
                             <h6>Other Disorders</h6>
                             <li>Other psychological disorders which are anger management issues, grief and bereavement,
-                                relationship issues. Stress and burnout.</li>
+                                relationship issues, stress and burnout.</li>
                         </div>
                     </div>
                 </div>
@@ -258,7 +263,7 @@ $page = basename(__FILE__);
             <div class="dropdown-divider"></div>
             <div class="vct-services">
                 <h5 class="vct-services treatmentstyles">V.C.T Services</h5>
-                <p>Our specialist are skilled and knowledgeable on how to counsel and carry out HIV/AIDS tests. We
+                <p>Our specialists are skilled and knowledgeable on how to counsel and carry out HIV/AIDS tests. We
                     follow the following procedure, i.e.</p>
                 <div class="row">
                     <div class="col-12 col-md-6">
@@ -272,7 +277,7 @@ $page = basename(__FILE__);
                             <li>Feedback of possible results in relations to personal risk assessment</li>
                             <li>Assessment and discussion regarding capacity to cope with potential positive results
                             </li>
-                            <li>Assessment of potential support requirement</li>
+                            <li>Assessment of potential support requirements</li>
                             <li>Development of a personal risk reduction plan</li>
                             <li>Provision of HIV test information</li>
                             <li>Informed consent</li>
@@ -289,11 +294,11 @@ $page = basename(__FILE__);
                 <ul class="decimal-list-style">
                     <li>An explanation of the test results including information about the window period for the
                         appearance of HIV antibodies and a recommendation to re-test in case of a recent exposure</li>
-                    <li>Basic advice on methods to prevent hive transmission, including avoiding the use of
-                        non-sterilize needles syringes or other injecting equipment</li>
+                    <li>Basic advice on methods to prevent HIV transmission, including avoiding the use of
+                        non-sterilize needles syringes or other injecting equipments</li>
                     <li>Access to drug dependence treatment and its effectiveness</li>
                     <li>Guidance on the use of condoms, safe injecting advice( if possible, an appropriate supply of
-                        condoms sterile needles/ syringes and other commodities should be provided) </li>
+                        condoms, sterile needles/ syringes and other commodities should be provided) </li>
                     <li>The appropriate time for follow up test, based on the risk assessment and ongoing risk behavior.
                     </li>
                 </ul>
@@ -330,11 +335,13 @@ $page = basename(__FILE__);
             <div class="counselling-psychology">
                 <h5 class="school-of-counselling-psychology treatmentstyles">SCHOOL OF COUNSELLING PSYCHOLOGY</h5>
                 <p>Counseling psychology is a specialty within a professional psychology that maintains a focus on
-                    facilitating personal and interpersonal functioning across the lifespan of an individual, the
-                    specialty pays particular attention to emotional, social, vocational, educational, health related,
-                    developmental, at organizational consent. At St Nicholas rehabilitation and nursing home, we are
+                    facilitating personal and interpersonal functioning across the lifespan of an individual. The
+                    specialty pays particular attention to emotional, social, vocational, educational, health related
+                    and
+                    developmental at organizational consent. At St Nicholas Rehabilitation and Nursing Home, we are
                     befitted to offer this course and majorly deal with addiction counseling to produce the best
-                    counseling psychologist who can work well with individual and groups to improve their mental health,
+                    counseling psychologists who can work well with individuals and groups to improve their mental
+                    health,
                     encourage clients to discuss their issues, examine issues to do with substance abuse and alcoholism,
                     bullying, depression and many other psychological issues.</p>
 
@@ -345,13 +352,13 @@ $page = basename(__FILE__);
                 </h5>
                 <div class="technical-training">
                     <h6>Technical Training</h6>
-                    <p>Technical training-this training is offered to our clients only to help them gain skills and
-                        knowledge with will in turn increase their employability tendency hence avoiding relapse</p>
+                    <p>Technical training--This training is offered to our clients only to help them gain skills and
+                        knowledge which will in turn increase their employability tendency hence avoiding relapses</p>
                 </div>
                 <div class="secondary-education">
                     <h6>Secondary Education</h6>
-                    <p>Secondary education-this is also offered to our clients especially those who dropped out of
-                        school ,this reassures the client of their continuity of education during the rehabilitation
+                    <p>Secondary education--This is also offered to our clients especially those who dropped out of
+                        school. This reassures the client of their continuity of education during the rehabilitation
                         process.</p>
                 </div>
             </div>

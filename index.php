@@ -239,7 +239,7 @@ if(is_post_request()) {
                                 schools and universities</li>
                             <li>Our rehabilitation center partners with RITI Association of the Unemployed Professionals
                                 which assures the recovered clients of employment, financing their talents and dreams
-                                and helping them initiate a business enterprise.</li>
+                                and helping them initiate business enterprises.</li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-12">

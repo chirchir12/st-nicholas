@@ -41,13 +41,14 @@ $page = basename(__FILE__);
                         United Nations figures with an estimation of 87% of the world population living below the dollar
                         per day. This further demonstrates poverty, hunger, lack of education, maternal mortality and
                         unemployment have a greater significance and impact. </p>
-                    <p>While the government has made strides to provide access to education there is a huge gap when it
-                        comes to equal access to employment opportunities. Therefore due to high unemployment, many
-                        people turn to alcoholism and drug abuse, robbery and gang violence, among others vices. At St
-                        Nicholas Rehabilitation Center and Nursing Home, we have recognized the need to help the
-                        community counter drug addiction through quality rehabilitation services. The institution will
+                    <p>While the government has made strides to provide access to education there is a huge gap when
+                        it comes to equal access to employment opportunities. Therefore due to high unemployment,
+                        many people turn to alcoholism and drug abuse, robbery, and gang violence, among others vices.
+                        At St Nicholas Rehabilitation Center and Nursing Home, we have recognized the need to help
+                        the community counter drug addiction through quality rehabilitation services. The institution
+                        will
                         provide other important services such as guidance and counseling, training on employability
-                        skills and pitch opportunities within and outside the country.
+                        skills, and pitch opportunities within and outside the country.
                     </p>
                 </div>
             </div>
@@ -62,8 +63,9 @@ $page = basename(__FILE__);
         <div class="dropdown-divider"></div>
         <div class="mission-vission-core">
             <h3>Mission</h3>
-            <p>To lead in the fight against alcohol and drug abuse through prevention treatment, rehabilitation and
-                offering training on employability skills as a follow up to the affected adults and youths.</p>
+            <p>To lead in the fight against alcoholism and drug abuse through prevention treatment,
+                rehabilitation, and offering training on employability skills as a follow up to the affected
+                adults and youths.</p>
             <h3>Vision</h3>
             <p>A society free from alcohol and drug abuse trained in employability skills.</p>
             <h3>Core Values</h3>

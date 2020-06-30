@@ -10,7 +10,7 @@
                     <marquee class="running-text" behavior="" direction=""> Nursing Home, Psychiatric Hospital,
                         School of Counselling Psychology, Industrial Training Institute, Secondary Education
                     </marquee>
-                    <p><a href="#" class="btn btn-primary px-4 py-3 mt-2">Our Services</a></p>
+                    <p><a href="services.php" class="btn btn-primary px-4 py-3 mt-2">Our Services</a></p>
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@
                     <marquee class="running-text" behavior="" direction=""> Nursing Home, Psychiatric Hospital,
                         School of Counselling Psychology, Industrial Training Institute, Secondary Education
                     </marquee>
-                    <p><a href="#" class="btn btn-primary px-4 py-3 mt-2">Our Services</a></p>
+                    <p><a href="services.php" class="btn btn-primary px-4 py-3 mt-2">Our Services</a></p>
                 </div>
             </div>
         </div>

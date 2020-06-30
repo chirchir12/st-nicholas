@@ -29,7 +29,7 @@
                         <p>St Nicholas Rehabilitation and Nursing Home perfoms drug test for their
                             clients at their clinic
                             or from the clients residence. We use urine drug screens or urine drug test
-                            to detest the
+                            to test the
                             presence of drugs in a person’s system.</p>
                     </div>
                 </div>
